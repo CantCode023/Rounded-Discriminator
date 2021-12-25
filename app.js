@@ -55,6 +55,6 @@ app.get('/round', function(req, res) {
     res.send(a)
 })
 
-app.listen(port, function() {
+app.listen(process.env.PORT || port, function() {
     console.log(`Running on port ${port}!`)
 })

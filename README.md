@@ -2,7 +2,7 @@
 Rounds your Discord discriminator.
 
 # How to use?
-1. Go to <a href="https://cantcode023.github.io/Rounded-Discriminator">this</a> website.
+1. Go to <a href="https://round-discriminator.herokuapp.com/">this</a> website.
 2. Insert your Discord discriminator in the textbox and click Round.
 
 # FAQ

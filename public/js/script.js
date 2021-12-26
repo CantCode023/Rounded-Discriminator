@@ -2,7 +2,10 @@ const disc = document.getElementById("disc")
 const round = document.getElementById("round")
 
 round.onclick = function() {
-    const a = disc.value.toString()
+    var a = disc.value.toString()
+    if ("#" in a) {
+        a = a.split("#")[1]
+    }
 
     fetch("/round?disc=" + a)
         .then(function(x) {

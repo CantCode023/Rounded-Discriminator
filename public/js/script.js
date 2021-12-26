@@ -3,7 +3,7 @@ const round = document.getElementById("round")
 
 round.onclick = function() {
     var a = disc.value.toString()
-    if ("#" in a) {
+    if (a.indexOf("#") != -1) {
         a = a.split("#")[1]
     }
 
